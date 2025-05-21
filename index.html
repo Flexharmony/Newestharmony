@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flex Harmony</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="sticky-nav">
+      <img src="assets/logo.png" alt="Logo" class="logo">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#offerings">Offerings</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero" id="home">
+      <h1>Flex Harmony</h1>
+      <p>Spiritual Yoga & Holistic Wellness Studio</p>
+    </div>
+  </header>
+
+  <!-- Removed duplicate offerings section -->
+    <h2>Our Offerings</h2>
+    <div class="offering-card">🧘‍♀️ Yoga Classes</div>
+    <div class="offering-card">🌀 Physiotherapy</div>
+    <div class="offering-card">🔥 Zumba & Weight Loss</div>
+    <div class="offering-card">🌿 Spiritual Healing</div>
+  </section>
+
+  
+<section id="pricing" class="pricing">
+  <h2>Service Pricing</h2>
+  <div class="pricing-grid">
+    <!-- Physiotherapy -->
+    <div class="pricing-card">
+      <h3>Online Consultation</h3>
+      <div class="price">₹300</div>
+      <ul>
+        <li><span class="tick">✔</span> 30-min video call</li>
+        <li><span class="tick">✔</span> Basic exercise plan</li>
+      </ul>
+      <button class="pay-btn" data-service="Online Consultation" data-price="300">
+        <i class="fas fa-credit-card"></i> Pay & Book
+      </button>
+    </div>
+    <div class="pricing-card popular">
+      
+      <h3>In-Clinic Session</h3>
+      <div class="price">₹400</div>
+      <ul>
+        <li><span class="tick">✔</span> 45-min session</li>
+        <li><span class="tick">✔</span> Hands-on therapy</li>
+      </ul>
+      <button class="pay-btn" data-service="In-Clinic Session" data-price="400">
+        <i class="fas fa-credit-card"></i> Pay & Book
+      </button>
+    </div>
+
+    <!-- Yoga Packages -->
+    <div class="pricing-card">
+      <h3>BEGINNER</h3>
+      <div class="price">₹2,000<span>/month</span></div>
+      <p>Perfect for kickstarting your health journey.</p>
+      <ul>
+        <li><span class="tick">✔</span> 5 classes/week (Mon–Fri)</li>
+        <li><span class="tick">✔</span> Yoga mat included</li>
+      </ul>
+      <button class="pay-btn" data-service="Beginner Package" data-price="2000">
+        <i class="fas fa-credit-card"></i> Pay & Start
+      </button>
+    </div>
+
+    <div class="pricing-card popular">
+      
+      <div class="popular-tag">Most Booked</div>
+      <h3>ADVANCED</h3>
+      <div class="price">₹3,000<span>/month</span></div>
+      <p>Ideal for maintaining a balanced lifestyle.</p>
+      <ul>
+        <li><span class="tick">✔</span> Custom training & diet plans</li>
+        <li><span class="tick">✔</span> Monthly progress reviews</li>
+        <li><span class="tick">✔</span> Priority WhatsApp support (12hr)</li>
+        <li><span class="tick">✔</span> 1 Physio Consultation Included</li>
+        <li><span class="tick">✔</span> Access to WhatsApp Group</li>
+      </ul>
+      <button class="pay-btn" data-service="Advanced Package" data-price="3000">
+        <i class="fas fa-credit-card"></i> Pay & Upgrade
+      </button>
+    </div>
+
+    <div class="pricing-card">
+      <h3>PREMIUM</h3>
+      <div class="price">₹6,000<span>/month</span></div>
+      <p>Comprehensive wellness experience.</p>
+      <ul>
+        <li><span class="tick">✔</span> 1-on-1 Coaching Session/month</li>
+        <li><span class="tick">✔</span> Weekly Nutrition & Progress Check</li>
+        <li><span class="tick">✔</span> 2 Physio Consultations + 1 Session</li>
+        <li><span class="tick">✔</span> WhatsApp Group & Weekly Tips</li>
+        <li><span class="tick">✔</span> Priority Support (8hr)</li>
+      </ul>
+      <button class="pay-btn" data-service="Premium Package" data-price="6000">
+        <i class="fas fa-credit-card"></i> Pay & Join
+      </button>
+    </div>
+  </div>
+  <div class="upi-payment">
+    <img src="assets/upi-qr.png" alt="Scan to pay via UPI">
+  </div>
+</section>
+
+
+  <section id="contact" class="pricing">
+    <h2>Service Pricing</h2>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <h3>Online Consultation</h3>
+        <div class="price">₹300</div>
+        <ul>
+          <li><span class="tick">✔</span> 30-min video call</li>
+          <li><span class="tick">✔</span> Basic exercise plan</li>
+        </ul>
+        <button class="pay-btn" data-service="Online Consultation" data-price="300">
+          <i class="fas fa-credit-card"></i> Pay & Book
+        </button>
+      </div>
+      <div class="pricing-card popular">
+        
+        <h3>In-Clinic Session</h3>
+        <div class="price">₹400</div>
+        <ul>
+          <li><span class="tick">✔</span> 45-min session</li>
+          <li><span class="tick">✔</span> Hands-on therapy</li>
+        </ul>
+        <button class="pay-btn" data-service="In-Clinic Session" data-price="400">
+          <i class="fas fa-credit-card"></i> Pay & Book
+        </button>
+      </div>
+      <div class="pricing-card">
+        <h3>Beginner Yoga</h3>
+        <div class="price">₹1,500<span>/mo</span></div>
+        <ul>
+          <li><span class="tick">✔</span> 5 classes/week</li>
+          <li><span class="tick">✔</span> Yoga mat included</li>
+        </ul>
+        <button class="pay-btn" data-service="Beginner Yoga Package" data-price="1500">
+          <i class="fas fa-credit-card"></i> Pay & Enroll
+        </button>
+      </div>
+    </div>
+    <div class="upi-payment">
+      <img src="assets/upi-qr.png" alt="Scan to pay via UPI">
+      <p>8233668433@ptsbi</p>
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
+
+<section class="contact" id="contact">
+  <h2>Send Us a Message</h2>
+  <form action="https://usebasin.com/f/8a81192b6495" method="POST" class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+  </form>
+</section>
+
+</body>
+</html>

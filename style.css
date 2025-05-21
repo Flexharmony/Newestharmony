@@ -1,0 +1,123 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fceff1;
+  margin: 0;
+  padding: 0;
+}
+.sticky-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: white;
+  position: sticky;
+  top: 0;
+  align-items: center;
+}
+.sticky-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.sticky-nav a {
+  text-decoration: none;
+  color: #4a2f6c;
+  font-weight: bold;
+}
+.logo {
+  height: 50px;
+}
+.hero {
+  padding: 3rem;
+  background: linear-gradient(to right, #b58dd3, #d5aee4);
+  color: white;
+  text-align: center;
+}
+.offering-card {
+  padding: 1rem;
+  background: white;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 8px;
+}
+/* Pricing Section */
+.pricing {
+  padding: 2rem;
+  text-align: center;
+  background: #f8f1ff;
+}
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.pricing-card {
+  background: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  position: relative;
+}
+.popular-tag {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  background: #d4af37;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+.price {
+  font-size: 2rem;
+  color: #8e44ad;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+.price span {
+  font-size: 1rem;
+  color: #666;
+}
+.whatsapp-btn {
+  background: #25D366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-top: 1rem;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s;
+}
+.whatsapp-btn:hover {
+  background: #128C7E;
+  transform: translateY(-3px);
+}
+.upi-payment {
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 15px;
+  max-width: 300px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.upi-payment img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+}
+.upi-payment p {
+  font-family: monospace;
+  margin-top: 1rem;
+  background: #f3e5f5;
+  padding: 10px;
+  border-radius: 5px;
+}
